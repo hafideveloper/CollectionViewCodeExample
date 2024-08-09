@@ -13,6 +13,8 @@
 		F57B1AC22C6639CA00105F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57B1AC02C6639CA00105F74 /* Main.storyboard */; };
 		F57B1AC42C6639CA00105F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B1AC32C6639CA00105F74 /* Assets.xcassets */; };
 		F57B1AC72C6639CA00105F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57B1AC52C6639CA00105F74 /* LaunchScreen.storyboard */; };
+		F57B1ACF2C663AD800105F74 /* MyColllectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B1ACE2C663AD800105F74 /* MyColllectionViewController.swift */; };
+		F57B1AD12C663D1000105F74 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B1AD02C663D1000105F74 /* MyFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F57B1AC32C6639CA00105F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57B1AC62C6639CA00105F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F57B1AC82C6639CA00105F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57B1ACE2C663AD800105F74 /* MyColllectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColllectionViewController.swift; sourceTree = "<group>"; };
+		F57B1AD02C663D1000105F74 /* MyFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		F57B1AAE2C6639C900105F74 = {
 			isa = PBXGroup;
 			children = (
+				F57B1AD02C663D1000105F74 /* MyFlowLayout.swift */,
 				F57B1AB92C6639C900105F74 /* CollectionViewCodeExample */,
 				F57B1AB82C6639C900105F74 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				F57B1ABA2C6639C900105F74 /* AppDelegate.swift */,
 				F57B1ABC2C6639CA00105F74 /* SceneDelegate.swift */,
 				F57B1ABE2C6639CA00105F74 /* ViewController.swift */,
+				F57B1ACE2C663AD800105F74 /* MyColllectionViewController.swift */,
 				F57B1AC02C6639CA00105F74 /* Main.storyboard */,
 				F57B1AC32C6639CA00105F74 /* Assets.xcassets */,
 				F57B1AC52C6639CA00105F74 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57B1AD12C663D1000105F74 /* MyFlowLayout.swift in Sources */,
 				F57B1ABF2C6639CA00105F74 /* ViewController.swift in Sources */,
 				F57B1ABB2C6639C900105F74 /* AppDelegate.swift in Sources */,
 				F57B1ABD2C6639CA00105F74 /* SceneDelegate.swift in Sources */,
+				F57B1ACF2C663AD800105F74 /* MyColllectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
