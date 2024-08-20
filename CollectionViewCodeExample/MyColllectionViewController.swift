@@ -3,7 +3,7 @@
 //  CollectionViewCodeExample
 //
 //  Created by Apple on 9.08.2024.
-//
+//  Updated 20.08.2024.
 
 import Foundation
 import UIKit
